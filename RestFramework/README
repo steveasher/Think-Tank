@@ -1,0 +1,1 @@
+I occassionally go back to this partial idea of a really high-level REST framework that makes some assumptions about the data structures of common web applications in order to produce an entirely declarative development environment (for most cases).

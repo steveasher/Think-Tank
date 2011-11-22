@@ -1,0 +1,7 @@
+I developed some really useful patterns for fluent APIs in Java.
+
+There are some blog posts about it here: 
+http://buildwithoutboundaries.blogspot.com/2007/12/intro-to-fluent-apis.html
+http://buildwithoutboundaries.blogspot.com/2007/12/fluent-api-pattern-nested-interfaces.html
+http://buildwithoutboundaries.blogspot.com/2007/12/fluent-query-language-through-strategy.html
+http://buildwithoutboundaries.blogspot.com/2008/01/fluent-api-pattern-method-chaining.html
