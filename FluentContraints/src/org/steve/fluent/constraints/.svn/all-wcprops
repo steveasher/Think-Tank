@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints
+END
+DeclaritiveConstraintRestraintSubject.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/DeclaritiveConstraintRestraintSubject.java
+END
+DeclaritiveConstraintDisjunctionConditionSubject.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/DeclaritiveConstraintDisjunctionConditionSubject.java
+END
+DeclaritiveConstraintCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/DeclaritiveConstraintCondition.java
+END
+Condition.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/Condition.java
+END
+DeclaritiveConstraintConjunctionCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/DeclaritiveConstraintConjunctionCondition.java
+END
+UnknownStateSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/UnknownStateSolver.java
+END
+DeclaritiveConstraintConditionSubject.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/DeclaritiveConstraintConditionSubject.java
+END
+DeclaritiveConstraintDisjunctionCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/DeclaritiveConstraintDisjunctionCondition.java
+END
+Restraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/Restraint.java
+END
+Constraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/Constraint.java
+END
+DeclaritiveConstraintConjunctionConditionSubject.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/DeclaritiveConstraintConjunctionConditionSubject.java
+END
+ConstraintBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/ConstraintBuilder.java
+END
+UnknownState.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/zetassociates/root/!svn/ver/618/FluentContraints/src/org/steve/fluent/constraints/UnknownState.java
+END

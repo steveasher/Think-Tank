@@ -1,0 +1,13 @@
+:l TreeTest.hs
+Test.QuickCheck.quickCheck prop_numBranchesIsOneLarger
+Test.QuickCheck.quickCheck prop_newExistsInChildren
+Test.QuickCheck.quickCheck prop_restofChildrenUnchanged
+Test.QuickCheck.quickCheck prop_emptyLocationNeverExists
+Test.QuickCheck.quickCheck prop_rootShouldAlwaysExist
+Test.QuickCheck.quickCheck prop_invalidRootWillNeverExist
+Test.QuickCheck.quickCheck prop_singlePositivePath
+Test.QuickCheck.quickCheck prop_subTreesDoNotCount
+Test.QuickCheck.quickCheck prop_noLocProducesError
+Test.QuickCheck.quickCheck prop_locOfRootProducesSameTree
+Test.QuickCheck.quickCheck prop_produceExampleSubTree
+Test.QuickCheck.quickCheck prop_invalidRootProducesError

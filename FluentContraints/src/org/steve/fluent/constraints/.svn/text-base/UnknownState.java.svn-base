@@ -1,0 +1,44 @@
+package org.steve.fluent.constraints;
+
+import java.util.*;
+
+public class UnknownState<T extends Enum<T>> {
+	private EnumSet<T> possibleStates;
+
+	public UnknownState(EnumSet<T> allPossibleStates) {
+		this.possibleStates = EnumSet.copyOf(allPossibleStates);
+	}
+
+	public void isNot(T state) {
+		this.possibleStates.remove(state);
+	}
+	
+	public T value() {
+		if (this.possibleStates == null || this.possibleStates.size() != 1)	return null;
+		
+		return this.possibleStates.iterator().next();
+	}
+	
+	public Set<T> possibleStates() {
+		return this.possibleStates;
+	}
+	
+	public Constraint isNotSameAs(final UnknownState<T> uniqueUnknown) {
+		final UnknownState<T> thisObject = this;
+		
+		return new Constraint(new Condition() {
+			public boolean check(Set<UnknownState<?>> allUnknowns) {
+				return uniqueUnknown.value() != null && thisObject.possibleStates().contains(uniqueUnknown.value());
+			}
+		}, new Restraint<T>(this) {
+			@Override
+			protected void performRestraint(UnknownState<T> unknownToActOn) {
+				unknownToActOn.possibleStates().remove(uniqueUnknown.value());
+			}
+		});
+	}
+	
+	public void is(T state) {
+		this.possibleStates = EnumSet.of(state);
+	}
+}

@@ -1,0 +1,16 @@
+package org.steve.fluent.constraints;
+
+import java.util.Set;
+
+public class UnknownStateSolver {
+	public static void narrow(Set<UnknownState<?>> relevantUnknowns, Set<Constraint> constraints) {
+		boolean runConstraints = true;
+		
+		while (runConstraints) {
+			runConstraints = false;
+			for (Constraint constraint : constraints) {
+				runConstraints |= constraint.constrain(relevantUnknowns);
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+package org.steve.fluent.constraints;
+
+public class DeclaritiveConstraintRestraintSubject<S extends Enum<S>, R extends Enum<R>> {
+	private final Condition condition;
+	private final UnknownState<R> restraintSubject;
+
+	public DeclaritiveConstraintRestraintSubject(Condition condition, UnknownState<R> restraintSubject) {
+		this.condition = condition;
+		this.restraintSubject = restraintSubject;
+	}
+
+	public Constraint is(final R state) {
+		return new Constraint(this.condition, new Restraint<R>(this.restraintSubject) {
+			@Override
+			protected void performRestraint(UnknownState<R> unknownState) {
+				unknownState.is(state);
+			}
+		});
+	}
+	
+	public Constraint isNot(final R state) {
+		return new Constraint(this.condition, new Restraint<R>(this.restraintSubject) {
+			@Override
+			protected void performRestraint(UnknownState<R> unknownState) {
+				unknownState.isNot(state);
+			}
+		});
+	}
+}

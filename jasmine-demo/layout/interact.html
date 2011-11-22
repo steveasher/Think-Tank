@@ -1,0 +1,29 @@
+<html>
+<head>
+	<!-- NOTE: No code, but it does include scripts and 'opt-in' to behavior -->
+
+	<title>Interact</title>
+	<!-- TODO: decide on a 'require' strategy -->
+	<script type="text/javascript" src="../behavior/libs/jquery-1.6.2.min.js"></script> 
+	<script type="text/javascript" src="../behavior/libs/extend.js"></script>
+	<script type="text/javascript" src="../behavior/util.js"></script>
+	<script type="text/javascript" src="../behavior/validate.js"></script>
+	<script type="text/javascript" src="../behavior/service.js"></script>
+	<script type="text/javascript" src="../behavior/interact.js"></script>
+</head>
+<body>
+	<h3>Enter email address</h3>
+	<div>
+		<ul id="errorList"></ul>
+		<form id="emailForm">
+			<input type="text" id="emailField" class="validated email"/>
+			<input type="submit" class="validated"/>
+		</form>
+	</div>
+	
+	<div>
+		Spam List
+		<ul id="emailList"></ul>
+	</div>
+</body>
+</html>

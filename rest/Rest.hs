@@ -27,3 +27,5 @@ class Resource a where
        
 isAuth :: (Resource r) => User -> r -> Bool
 isAuth = undefined
+
+type Transformer = (Show r) => r -> String
